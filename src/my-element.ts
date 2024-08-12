@@ -31,6 +31,7 @@ export class MyElement extends LitElement {
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/parent">Parent</a></li>
+        <li><a href="/parent/">Parent with trailing slash</a></li>
         <li><a href="/parent/child">Parent/Child</a></li>
         <li><a href="/parent/child/grandchild">Parent/Child/Grandchild</a></li>
         <li><a href="/parent/child/asdfasdf">Parent/Child/404</a></li>

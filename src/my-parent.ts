@@ -8,7 +8,9 @@ export class Parent extends LitElement {
     {
       path: 'child{/}?*?',
       render: () => html`<my-child></my-child>`,
-      enter: async () => import('./my-child.js')
+      enter: async () => {
+        await import('./my-child.js');
+      }
     }
   ]);
 
